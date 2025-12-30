@@ -46,4 +46,4 @@ echo ""
 iw dev | grep -A 5 $MON_IFACE
 echo ""
 echo "Monitor interface is ready. You can now use it with:"
-echo "  sudo ./ping_ack_latency -i $MON_IFACE -g 192.168.0.1"
+echo "sudo ./ping_ack_latency -i $MON_IFACE -g 192.168.0.1"
